@@ -11,5 +11,6 @@ public class Solution {
         int i = (int) f;
         int b = (byte)(int) (i + f);
         System.out.println(b);
+
     }
 }
