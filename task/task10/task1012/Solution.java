@@ -24,7 +24,7 @@ public class Solution {
 
         // ввод строк
         ArrayList<String> list = new ArrayList<String>();
-        for (int i = 0; i < 2; i++) { //было 10
+        for (int i = 0; i < 10; i++) {
             String s = reader.readLine();
             list.add(s.toLowerCase());
         }
