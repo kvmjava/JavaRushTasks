@@ -23,17 +23,16 @@ public class Solution {
         ArrayList<String> aMass2 = new ArrayList<String>();
         ArrayList<String> aMass3 = new ArrayList<String>();
 
-        aMass1.add("mass 1 stroka 1");
+        aMass1.add("_mass 1_");
         aMass1.add("mass 1 stroka 2");
-        aMass1.add("mass 1 stroka 3_");
+        aMass1.add("mass 1 stroka 3");
 
-        aMass2.add("mass 2 stroka 1");
-        aMass2.add("mass 2 stroka 2__");
+        aMass2.add("_mass 2_");
+        aMass2.add("_mass 2 stroka 2_");
 
-        aMass3.add("mass 3 stroka 1");
+        aMass3.add("_mass 3_");
         aMass3.add("mass 3 stroka 2");
         aMass3.add("mass 3 stroka 3");
-        aMass3.add("mass 3 stroka 4___");
 
         massSpiskiStrok[0] = aMass1;
         massSpiskiStrok[1] = aMass2;
