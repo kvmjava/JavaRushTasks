@@ -15,7 +15,7 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         ArrayList<String> words = new ArrayList<String>();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 5; i++) { //20 было
             words.add(reader.readLine());
         }
 
@@ -31,7 +31,10 @@ public class Solution {
 
         //напишите тут ваш код
 
-
+        for (int i = 0; i < 5; i++){
+            Integer count = result.get(list.get(i));
+            result.put(list.get(i), count == null ? 1 : count + 1);
+        }
         return result;
     }
 
