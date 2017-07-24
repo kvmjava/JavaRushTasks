@@ -19,9 +19,9 @@ public class Solution {
 
         ArrayList<String>[] massSpiskiStrok = new ArrayList[3];
 
-        ArrayList<String> aMass1 = new ArrayList<String>();
-        ArrayList<String> aMass2 = new ArrayList<String>();
-        ArrayList<String> aMass3 = new ArrayList<String>();
+        ArrayList<String> aMass1 = new ArrayList<>();
+        ArrayList<String> aMass2 = new ArrayList<>();
+        ArrayList<String> aMass3 = new ArrayList<>();
 
         aMass1.add("_mass 1_");
         aMass1.add("mass 1 stroka 2");
